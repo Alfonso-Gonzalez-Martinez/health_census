@@ -2,7 +2,6 @@
 node_modules/
 
 # Build output
-/dist
 /coverage
 
 # TypeScript compiled files (if you're not using `tsc` to output to /dist, adjust as needed)

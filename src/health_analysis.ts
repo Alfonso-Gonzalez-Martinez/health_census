@@ -103,7 +103,7 @@ export function searchCondition() {
     const resultDiv = document.getElementById('result') as HTMLElement;
     resultDiv.innerHTML = '';
 
-    fetch('../health_analysis.json')
+    fetch('./assets/health_analysis.json')
       .then(response => response.json())
       .then((data: Data) => {
         const condition = data.conditions.find(item => item.name.toLowerCase() === input);

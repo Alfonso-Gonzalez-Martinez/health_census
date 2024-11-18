@@ -1,0 +1,122 @@
+body{
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#contactForm {
+  max-width: 400px;
+  margin: 20px auto;
+  font-size: 12px;
+}
+p {
+  display: inline-block;
+  margin: 10px 0;
+}
+#contactForm input, #contactForm textarea {
+  width: 100%;
+  margin: 15px 0;
+  padding: 8px;
+}
+#contactForm button:active {
+  background-color: #2367b1;
+  transition: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c5b1b167;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+nav h1{
+  display: inline-block;
+  margin-bottom: 0;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bolder;
+  font-size: 14px;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+
+form h1{
+  margin-bottom: 20px;
+}
+label {
+  display: inline-block;
+  width: 100px;
+}
+input[type="text"], input[type="number"], select {
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+}
+button {
+  padding: 7px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: #45a049;
+}
+
+/* Basic CSS for the report section */
+h2 {
+  margin-top: 30px;
+}
+#report,#result {
+  padding: 10px;
+  max-width: 400px;
+  word-wrap: break-word;
+}
+#result{
+  height: 400px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#result img{
+  width: auto;
+  height: 100px;
+}
+.pop-up-containers{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pop-up-containers h2{
+  display: inline-block;
+}
+.report-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchCondition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
